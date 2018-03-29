@@ -1,0 +1,25 @@
+
+<h1 id="tt">Current Weather</h1>
+<div id="ab">
+  <label>Country
+    <select [(ngModel)]="country" placeholder="Enter Consept">
+      <option  *ngFor="let c of countries" value="{{c}}">{{c}}"</option>
+    </select>
+  </label>
+  <label>City
+    <select [(ngModel)]="city" placeholder="Enter Predicate">
+      <option  *ngFor="let cit of cities" value="{{cit}}">{{cit}}</option>
+    </select>
+  </label>
+
+  <button type="button" class="btn btn-warning" (click)="getDetails()" id = "getDe">GetDetails</button>
+  <span id ="bdy">
+  <p>Temparature (f): {{temparature}}</p>
+  <p>Humidity       : {{humidity}}</p>
+  <p>Pressure       : {{pressure}}</p>
+</span>
+</div>
+
+<div>
+
+</div>

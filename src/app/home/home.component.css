@@ -1,0 +1,17 @@
+#bdy{
+
+  border: black;
+  border: solid;
+}
+
+#ab{
+  border: thick double #32a1ce;
+  width: 500px;
+  position: absolute;
+  top: 150px; left: 350px;
+}
+
+#tt{
+  position: absolute;
+  top: 10px; left: 430px;
+}
